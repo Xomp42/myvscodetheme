@@ -1,0 +1,39 @@
+{
+  "name": "mytheme",
+  "displayName": "My Custom Theme",
+  "description": "A custom dark theme with more saturated text and darker backgrounds.",
+  "version": "1.0.0",
+  "publisher": "yourname",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourname/mytheme"
+  },
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "MyTheme",
+        "id": "mytheme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mytheme-color-theme.json"
+      }
+    ]
+  },
+  
+  "license": "MIT",
+  "keywords": [
+    "dark",
+    "theme",
+    "custom",
+    "color"
+  ],
+  "galleryBanner": {
+    "color": "#000000",
+    "theme": "dark"
+  }
+}
